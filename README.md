@@ -1,25 +1,25 @@
-# Android Project 4 - *Name of App Here*
+# Android Project 4 - *Flixter Part 2*
 
-Submitted by: **Your Name Here**
+Submitted by: **Gabriel Castejon**
 
-**Name of your app** is a movie browsing app that allows users to browse ... [TODO] 
+**Flixter Part 2** is a movie browsing app that allows users to browse movies trending on the current day and see their release date, original language, popularity, description, and poster
 
-Time spent: **X** hours spent in total
+Time spent: **4** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [ ] **Choose any endpoint on The MovieDB API except `now_playing`**
-  - Chosen Endpoint: `[TODO: FILL ME IN TO GET CREDIT]`
-- [] **Make a request to your chosen endpoint and implement a RecyclerView to display all entries**
-- [ ] **Use Glide to load and display at least one image per entry**
-- [ ] **Click on an entry to view specific details about that entry using Intents**
+- [X] **Choose any endpoint on The MovieDB API except `now_playing`**
+  - Chosen Endpoint: GET-TRENDING: https://developers.themoviedb.org/3/trending/get-trending 
+- [X] **Make a request to your chosen endpoint and implement a RecyclerView to display all entries**
+- [X] **Use Glide to load and display at least one image per entry**
+- [X] **Click on an entry to view specific details about that entry using Intents**
 
 The following **optional** features are implemented:
 
 - [ ] **Add another API call and RecyclerView that lets the user interact with different data.** 
-- [ ] **Add rounded corners to the images using the Glide transformations**
+- [X] **Add rounded corners to the images using the Glide transformations**
 - [ ] **Implement a shared element transition when user clicks into the details of a movie**
 
 The following **additional** features are implemented:
@@ -30,22 +30,18 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/gabo0802/AND102-Project4GC/blob/master/project4.gif?raw=true' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+GIF created with ScreenToGIF
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Derived a lot from the lab because of personal time constraints
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2023] [Gabriel Castejon]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
